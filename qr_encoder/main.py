@@ -15,4 +15,4 @@ qr_code.make(fit=True)
 
 qr_image = qr_code.make_image(fill_color="black", back_color="white")
 
-qr_image.save('qr_code.png')
+qr_image.save('qr_encoder/qr_code.png')
